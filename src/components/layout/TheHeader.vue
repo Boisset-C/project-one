@@ -3,8 +3,8 @@
       <nav>
         <h1><router-link to="/">TO THE ARENA</router-link></h1>
         <ul>
-          <base-button mode="flat" link to="settings"><li>settings</li></base-button>
-          <base-button mode="flat" link to="/main menu"><li>main menu</li></base-button>
+        <li><base-button mode="flat" link to="settings">settings</base-button></li>
+        <li><base-button mode="flat" link to="/main menu">main menu</base-button></li>
         </ul>
       </nav>
   </header>
@@ -14,7 +14,7 @@
 header {
   width: 100%;
   height: 5rem;
-  background-color: #3d008d;
+  background-color: #ff0800;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #f391e3;
+  color: #00F7FF;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
@@ -39,7 +39,7 @@ h1 {
 }
 
 h1 a {
-  color: white;
+  color: #00F7FF;
   margin: 0;
 }
 

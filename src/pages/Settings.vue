@@ -2,6 +2,6 @@
   <base-card>
   settings
 
-  <base-button link to="/introPage">Back to game</base-button>
+  <base-button mode="outline" link to="/introPage">Back to game</base-button>
   </base-card>
 </template>
