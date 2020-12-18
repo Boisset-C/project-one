@@ -1,5 +1,7 @@
 <template>
+<base-card>
   Level Two
 
-   <base-button link to="/levelThree">CONTINUE</base-button>
+   <base-button mode="flat" link to="/levelThree">CONTINUE</base-button>
+  </base-card>
 </template>

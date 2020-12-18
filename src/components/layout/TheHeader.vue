@@ -3,7 +3,8 @@
       <nav>
         <h1><router-link to="/">TO THE ARENA</router-link></h1>
         <ul>
-          <li><router-link to="/settings">settings</router-link></li>
+          <base-button mode="flat" link to="settings"><li>settings</li></base-button>
+          <base-button mode="flat" link to="/main menu"><li>main menu</li></base-button>
         </ul>
       </nav>
   </header>
@@ -30,7 +31,7 @@ header a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid #f391e3;
+  border: 1px solid #91f3d2;
 }
 
 h1 {

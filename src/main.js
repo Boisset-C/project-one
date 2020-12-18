@@ -17,3 +17,5 @@ app.component('base-card', BaseCard);
 app.component('base-badge', BaseBadge)
 
 app.mount('#app');
+
+// working on the buttons and it is rounding but not loading the pages.
