@@ -64,6 +64,7 @@ button:active {
   background-color: transparent;
   border-color: #270041;
   color: #00F7FF;
+  border: none;
 }
 
 .flat:hover,
