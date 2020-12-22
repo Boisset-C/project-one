@@ -10,17 +10,18 @@ export default {
       characters: [
         {
           id: 'c1',
-          name: 'rubish',
+          name: 'rubish1',
           description: 'dummy character1',
+          image:'assets/introGlad.jpeg',
         },
         {
           id: 'c2',
-          name: 'rubish',
+          name: 'rubish2',
           description: 'dummy character2',
         },
         {
           id: 'c3',
-          name: 'rubish',
+          name: 'rubish3',
           description: 'dummy character3',
         }
       ],

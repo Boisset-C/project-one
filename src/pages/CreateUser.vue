@@ -1,9 +1,16 @@
 <template>
   <base-card>
+    <form>
     <section>
-  <ul>LIST OF CHARACTERS</ul>
+  <ul>
+    <li v-for="character in listedCharacters" :key="character.id">
+      {{ character.name }}
+      {{ character.image }}
+    </li>
+  </ul>
     <base-button mode="outline" link to="/levelOne">START GAME</base-button>
     </section>
+    </form>
   </base-card>
 </template>
 
@@ -13,8 +20,9 @@ export default {
   components: { BaseCard },
   computed: { 
   listedCharacters() {
-    return this.$store.getters.characters;
+    return this.$store.getters['characters/characters'];
     },
    },
   };
 </script>
+
